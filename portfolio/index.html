@@ -5,50 +5,62 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio Home</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
+    <section class="background">
+      <header>
 
-      <div class="profile"></div>
+        <div class="profile">
+          <section class="profile-icon"></section>
+          <h1 class="name">Martina Gonzales</h1>
+        </div>
 
-      <nav>
+        <nav>
 
-        <ul>
+          <ul>
 
-          <li><a href="#home">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
 
-        </ul>
+          </ul>
 
-      </nav>
+        </nav>
 
-    </header>
+      </header>
 
-    <main id="home">
-      <section aria-labelledby="welcome-title">
+      <main id="home">
+        <section class="content" aria-labelledby="welcome-title">
 
-        <h1 id="welcome-title">Welcome to my Portfolio</h1>
-        <p>This is a simple portfolio website to showcase my projects and skills.</p>
+          <img src="public/PFP.jpg" alt="Profile Picture" class="profile-picture" />
 
-        <div class="app-links"></div>
-        <button id="projectsBtn">View Projects</button>
+          <h1 id="welcome-title">Welcome to my Portfolio</h1>
+          <p>This is a simple portfolio website to showcase my projects and skills.</p>
 
-      </section>
+          <div class="app-links"></div>
+          <button id="projectsBtn">View Projects</button>
 
-      <section id="projects" aria-labelledby="projects-title">
-        <h2 id="projects-title">My Projects</h2>
-        <div class="projects-container"></div>
-      </section>
+        </section>
 
-      <footer>
+        <section id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">My Projects</h2>
+          <div class="projects-container"></div>
+        </section>
 
-        <div class="profile"></div>
-        <h2>Do you have a project in mind?</h2>
-        <p>I'm always interested in new projects and opportunities. Contact me and lets talk about your next idea.</p>
+        <footer>
 
-      </footer>
+          <div class="profile">
+            <section class="profile-icon"></section>
+            <h1>Martina Gonzales</h1>
+          </div>
 
-    </main>
+          <h2>Do you have a project in mind?</h2>
+          <p>I'm always interested in new projects and opportunities. Contact me and lets talk about your next idea.</p>
+
+        </footer>
+
+      </main>
+    </section>
     
   </body>
 </html>
