@@ -1,0 +1,46 @@
+@media(max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  header, footer {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+
+  header, footer {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+@media(min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  header, footer {
+    padding: 20px;
+    flex-direction: row;
+  }
+
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

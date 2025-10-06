@@ -7,45 +7,48 @@
     <title>portfolio Home</title>
   </head>
   <body>
-    <div id="home">
+    <header>
 
-      <div class="header">
+      <div class="profile"></div>
 
-        <div class = "profile"></div>
+      <nav>
 
-        <div class="menu">
+        <ul>
 
-          <button>Home</button>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
 
-          <button>Projects</button>
+        </ul>
 
-        </div>
+      </nav>
 
-      </div>
+    </header>
 
-      <div class="body">
+    <main id="home">
+      <section aria-labelledby="welcome-title">
 
-        <h1>Welcome to my Portfolio</h1>
-
+        <h1 id="welcome-title">Welcome to my Portfolio</h1>
         <p>This is a simple portfolio website to showcase my projects and skills.</p>
 
-        <div class="app-liks"></div>
-
+        <div class="app-links"></div>
         <button id="projectsBtn">View Projects</button>
 
-      </div>
+      </section>
 
-      <div class="footer">
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">My Projects</h2>
+        <div class="projects-container"></div>
+      </section>
+
+      <footer>
 
         <div class="profile"></div>
-
         <h2>Do you have a project in mind?</h2>
+        <p>I'm always interested in new projects and opportunities. Contact me and lets talk about your next idea.</p>
 
-        <p>I'm always interest in new projects and opportunities. Contact me and lets talk about your next idea</p>
+      </footer>
 
-      </div>
-
-    </div>
+    </main>
     
   </body>
 </html>
