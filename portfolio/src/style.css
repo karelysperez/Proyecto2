@@ -55,7 +55,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  min-height: 90%;
+  min-height: 80%;
 }
 
 /* profile */
@@ -88,8 +88,8 @@ h1.name{
 }
 
 .profile-picture {
-  width: 140px;
-  height: 140px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 12px;
@@ -120,6 +120,7 @@ section.background, section.foreground {
   text-align: center;
   padding: 20px;
   margin: 1px 20px 0px 20px;
+  align-items: center;
 }
 
 section.background {
@@ -136,6 +137,21 @@ section.foreground {
 
 /* Button */
 
+.app-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
 button{
   padding: 10px 20px;
   border-radius: 10px;
@@ -143,7 +159,18 @@ button{
   background-color: #000000;
   color: white;
   font-size: 14px;
-  margin: 20px;
+  cursor: pointer;
+  inline-size: fit-content;
+}
+
+/*icons*/
+#github{
+  width: 46px;
+  height: 46px;
+}
+#linkedin{
+  width: 38px;
+  height: 38px;
 }
 
 /* Footer */
@@ -236,5 +263,10 @@ footer .profile-icon{
 
   .textContent{
     margin-left: 50px;
+  }
+
+  .buttons{
+    align-items:flex-start;
+  
   }
 }
