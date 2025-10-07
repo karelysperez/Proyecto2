@@ -149,6 +149,23 @@ h1.name{
     flex-direction: row;
 }
 
+.textContent{
+    text-align: left;
+    margin-left: 50px;
+}
+.textContent h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.textContent p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
 button{
   padding-top: 14px;
   padding-bottom: 14px;
