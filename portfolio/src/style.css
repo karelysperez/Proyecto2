@@ -101,6 +101,7 @@ h1.name{
   text-align: center;
   margin-left: 0;
   max-width: 65ch;
+  padding: 12px;
 }
 .textContent h1{
   font-size: 22px;
@@ -152,16 +153,35 @@ section.foreground {
   
 }
 
-button{
+#projectsBtn{
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
   background-color: #000000;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   cursor: pointer;
   inline-size: fit-content;
 }
+
+#menuBtn{
+  display: none;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: default;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+#menuBtn img{
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
 
 /*icons*/
 #github{
@@ -218,6 +238,13 @@ footer .profile-icon{
   .textContent{
     margin-left: 24px;
   }
+
+  nav{
+    display: none;
+  }
+  #menuBtn{
+    display: inline-flex;
+  }
 }
 
 @media(min-width: 768px) {
@@ -239,6 +266,14 @@ footer .profile-icon{
 
   .textContent{
     margin-left: 24px;
+  }
+
+  nav{
+    display: block;
+  }
+
+  #menuBtn{
+    display: none;
   }
 }
 
