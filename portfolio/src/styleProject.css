@@ -16,14 +16,18 @@ body{
 /* Header */
 
 header {
+  background-color: #f4f4f4;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding-block: 12px;
-  padding-inline: 12px;
+  border-top-left-radius:  50px;
+  border-top-right-radius:  50px;
+  margin: 20px 20px 1px 20px;
+  padding-block: 30px;
+  padding-inline: 30px;
 }
+
 
 nav ul {
   flex-direction: row;
@@ -78,22 +82,6 @@ h1.name{
   margin-bottom: 12px;
 }
 
-/* Sections with border-radius*/
-section.background, section.foreground {
-  background-color: #f4f4f4;
-  text-align: center;
-  padding: 20px;
-  margin: 1px 20px 0px 20px;
-  align-items: center;
-  justify-content: center;
-}
-
-section.background {
-  border-top-left-radius:  50px;
-  border-top-right-radius:  50px;
-  margin-top: 20px;
-}
-
 /* Button */
 #menuBtn{
   display: none;
@@ -117,12 +105,6 @@ section.background {
 
 @media(max-width: 767px) {
 
-  header {
-    padding-block: 15px;
-    padding-inline: 15px;
-    flex-direction: row;
-  }
-
   nav{
     display: none;
   }
@@ -133,11 +115,7 @@ section.background {
 
 @media(min-width: 768px) and (max-width: 1023px) {
   
-  header{
-    padding-block: 15px;
-    padding-inline: 15px;
-    flex-direction: row;
-  }
+
 
   nav{
     display: block;
@@ -150,10 +128,6 @@ section.background {
 
 @media(min-width: 1024px) {
 
-  header {
-    padding-block: 20px;
-    padding-inline: 20px;
-    flex-direction: row;
-  }
+
 
 }
