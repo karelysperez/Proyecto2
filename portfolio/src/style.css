@@ -18,6 +18,7 @@ img{
   max-width: 100%;
   height: auto;
   display: block;
+  flex-shrink: 0;
 }
 
 /* Header */
@@ -122,6 +123,7 @@ section.background, section.foreground {
   padding: 20px;
   margin: 1px 20px 0px 20px;
   align-items: center;
+  justify-content: center;
 }
 
 section.background {
@@ -150,6 +152,7 @@ section.foreground {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12px;
   
 }
 
@@ -247,7 +250,7 @@ footer .profile-icon{
   }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 768px) and (max-width: 1023px) {
   
   header{
     padding-block: 15px;
@@ -260,7 +263,7 @@ footer .profile-icon{
   }
 
   .content{
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
   }
 
