@@ -101,6 +101,29 @@ h1.name{
   display: block;
 }
 
+/* Footer */
+
+footer{
+  color: white;
+  background-color: #0b033a;
+  text-align: center;
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+footer .profile{
+  justify-content: center;
+}
+
+footer .profile-icon{
+  background-color: #f4f4f4;
+  color: #000;
+}
+
 /* BrakePoints */
 
 @media(max-width: 767px) {
