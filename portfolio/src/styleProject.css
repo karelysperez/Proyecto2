@@ -145,6 +145,26 @@ main{
   padding: 0 10px 15px;
 }
 
+/*Tags*/
+.tags{
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 6px;              
+  margin: 5px;
+}
+
+.tags h3{
+  font-size: 0.9rem;
+  font-weight: normal;
+  background-color: #e4e3e3;
+  padding: 8px 8px;
+  border-radius: 25px;
+  white-space: nowrap; 
+  margin: 0;
+}
+
+
+
 /* Footer */
 
 footer{
