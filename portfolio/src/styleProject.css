@@ -110,6 +110,10 @@ main{
   gap: 20px;
   padding: 20px;
   margin: 0px 20px 0px 20px;
+
+  align-items: start;   
+  align-content: start; 
+  flex: 1;
 }
 
 .introduction{
@@ -153,6 +157,7 @@ footer{
   flex-direction: column;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  margin-top: auto;
 }
 
 footer .profile{
